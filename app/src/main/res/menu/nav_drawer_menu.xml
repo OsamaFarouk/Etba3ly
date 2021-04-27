@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+  >
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_welcome_id"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_control_id"
+            android:icon="@drawable/power"
+            android:title="Power Control" />
+        <item
+            android:id="@+id/nav_creat_id"
+            android:icon="@drawable/create"
+            android:title="Create Order" />
+        <item
+            android:id="@+id/nav_view_id"
+            android:icon="@drawable/view"
+            android:title="View Order" />
+        <item
+            android:id="@+id/nav_message_id"
+            android:icon="@drawable/screenshot"
+            android:title="Screenshots" />
+        <item
+            android:id="@+id/nav_chat_id"
+            android:icon="@drawable/livest"
+            android:title="Live Stream" />
+        <item
+            android:id="@+id/nav_notebooks_id"
+            android:icon="@drawable/ar"
+            android:title="AR Meets" />
+        <item
+            android:id="@+id/nav_profile_id"
+            android:icon="@drawable/art"
+            android:title="Gallary" />
+    </group>
+
+    <item android:title="Quick Links">
+        <menu>
+            <item
+                android:id="@+id/nav_send_id"
+                android:icon="@drawable/www"
+                android:title="Website" />
+            <item
+                android:id="@+id/nav_share_id"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+    <item android:title="Developers">
+        <menu>
+            <item
+                android:id="@+id/nav_photos_id"
+                android:icon="@drawable/aboutus"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_darkmode_id"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/nav_settings_id"
+                android:icon="@drawable/logout2"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>

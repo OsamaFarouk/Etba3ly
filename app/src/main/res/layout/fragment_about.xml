@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gray"
+          />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" Our Faculty"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000"
+            android:text=" Delta University for Science and \n Technology , Faculty of Engineering , \n Communication Department ."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" Our Supervisors"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+
+            android:gravity="center_horizontal"
+            android:text=" Prof.Dr.Mohamed Sherif"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+
+            android:text=" Dr.Hanaa Salem"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" Our Team"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" 👨🏻‍🎓 Mohamed Samy"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+
+            android:textStyle="bold"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="114dp"
+            android:text=" 👨🏻‍🎓 Mohamed Sultan"
+            android:textColor="#000"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" 👨🏻‍🎓 Osama Farouk"
+            android:layout_marginLeft="114dp"
+
+            android:textColor="#000"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="114dp"
+
+            android:gravity="center_horizontal"
+            android:text=" 👨🏻‍🎓 Bassem Al-Matboli"
+            android:textColor="#000"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="114dp"
+
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" 👨🏻‍🎓 Mohamed Ahmed"
+            android:textColor="#000"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="114dp"
+
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" 👩🏻‍🎓 Omnia Mohamed"
+            android:textColor="#000"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="114dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:text=" 👨🏻‍🎓 Abdelrahman Tharwat"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="114dp"
+
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text=" 👩🏻‍🎓 Rawan El-bialy"
+            android:textColor="#000"
+
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="114dp"
+            android:text=" 👨🏻‍🎓 Yousef Ashraf"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="114dp"
+            android:gravity="center_horizontal"
+            android:text=" 👩🏻‍🎓 Rana Ashraf"
+
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="114dp"
+            android:text=" 👨🏻‍🎓 Ahmed Sobhy"
+
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>
